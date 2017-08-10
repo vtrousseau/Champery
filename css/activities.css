@@ -1,0 +1,178 @@
+#activites {
+	background-color: #a4a8ad;
+	width: 100%;
+}
+
+.table {
+	/* Firefox */
+width: -moz-calc(100% - 638px);
+/* WebKit */
+width: -webkit-calc(100% - 638px);
+/* Opera */
+width: -o-calc(100% - 638px);
+/* Standard */
+width: calc(100% - 638px);
+float: left;
+display: table;
+border-collapse: separate;
+border-spacing: 20px 20px;
+}
+
+.row {
+    display: table-row
+}
+
+.c1-2 {
+    display: table-cell;
+    background-color: #555759;
+    padding: 10px;
+	float: none;
+}
+
+.img-wrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+
+.activite-img {
+	width:100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.description:hover .activite-img {
+	  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+	}
+	
+.description {
+	color: #b5b6b7;
+}
+
+.description:hover {
+	-webkit-transition: color 0.3s ease-in;
+   -moz-transition: color 0.3s ease-in;
+   -o-transition: color 0.3s ease-in;
+   -ms-transition: color 0.3s ease-in;
+   transition: color 0.3s ease-in;
+   color: white;
+}
+
+.description h2 {
+	padding-top: 0.5em;
+}
+
+.map {
+	float: right;
+	position: relative;
+	color: transparent;
+}
+
+#chillon {
+	left: 233px;
+	top: 0px;
+	width: 98px;
+	height: 75px;
+}
+
+#aquaparc {
+	left: 21px;
+	top: 118px;
+	width: 95px;
+	height: 64px;	
+}
+
+#swissvapeurparc {
+	left: 77px;
+	top: 178px;
+	width: 99px;
+	height: 78px;	
+}
+
+#chateau {
+	left: 325px;
+	top: 291px;
+	width: 98px;
+	height: 79px;	
+}
+	
+#saline {
+	left: 399px;
+	top: 411px;
+	width: 106px;
+	height: 79px;	
+}
+
+#baths {
+	left: 100px;
+	top: 495px;
+	width: 117px;
+	height: 75px;	
+}
+
+#gorges {
+	left: 256px;
+	top: 559px;
+	width: 113px;
+	height: 77px;	
+}
+
+#labyrinthe {
+	left: 423px;
+	top: 582px;
+	width: 113px;
+	height: 85px;	
+}
+
+#ski {
+	left: 69px;
+	top: 643px;
+	width: 123px;
+	height: 66px;	
+}
+
+#foundation {
+	left: 530px;
+	top: 758px;
+	width: 106px;
+	height: 76px;	
+}
+	
+#chillon, #aquaparc, #swissvapeurparc, #chateau, #saline, #baths, #gorges, #labyrinthe, #ski, #foundation {
+	position: absolute;
+	-webkit-transition: color 0.3s ease-in, background 0.5s ease-in;
+   -moz-transition: color 0.3s ease-in, background 0.5s ease-in;
+   -o-transition: color 0.3s ease-in, background 0.5s ease-in;
+   -ms-transition: color 0.3s ease-in, background 0.5s ease-in;
+   transition: color 0.3s ease-in, background 0.5s ease-in;
+   background: transparent;
+   	color: transparent;
+	padding-top: 20px;
+	font-size: 1.1em;
+}
+
+#chillon:hover, #aquaparc:hover, #swissvapeurparc:hover, #saline:hover, #chateau:hover, #baths:hover, #gorges:hover, #labyrinthe:hover, #ski:hover, #foundation:hover {
+	color: black;
+	background: rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+}
+
+@media all and (max-width: 840px) { 
+    /* demo 3 */
+    .main .container {
+        padding: 0 30px
+    }
+    .table {
+        display: block
+    }
+    .row {
+        display: block
+    }
+    .c1-3 {
+        display: block;
+        margin-bottom: 30px
+    }
+
+}

@@ -243,8 +243,12 @@ a:hover {
   margin-bottom: 0px;
 }
 
-.container-fluid{
+.container-fluid, .row{
     padding: 0px;
+}
+
+.row {
+  margin-left: 0px;
 }
 
 .content {
