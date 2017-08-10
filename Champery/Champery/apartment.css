@@ -1,0 +1,220 @@
+#apartment, #contact-form {
+		background-color: #a4a8ad;
+		padding-bottom: 5em;
+}
+
+#contact-form {
+		padding-top: 5em;
+}
+
+.intro-apartment {
+	width: 70%;
+	float: center;
+	margin: auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+.intro-apartment h2, h3{
+padding: 1em 0;	
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.slide_viewer {
+  height: 30em;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: url('../images/appartement-1-lg.jpg');
+}
+
+.slide:nth-of-type(2) {
+  background: url('../images/appartement-2-lg.jpg');
+}
+
+.slide:nth-of-type(3) {
+  background: url('../images/appartement-3-lg.jpg');
+}
+
+.slide:nth-of-type(4) {
+  background: url('../images/appartement-4-lg.jpg');
+}
+
+.slide:nth-of-type(5) {
+  background: url('../images/appartement-5-lg.jpg');
+}
+
+.slide:nth-of-type(6) {
+  background: url('../images/appartement-6-lg.jpg');
+}
+
+.slide:nth-of-type(7) {
+  background: url('../images/appartement-7-lg.jpg');
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #FF0000;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 80px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -240px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+.features {
+	text-align: center;
+	padding: 0 10%;
+	margin: auto;
+	max-width: 1300px;
+}
+
+.features .c1-3{
+	text-align: left;	
+}
+
+.features .fa {
+	font-size: 1.3em;
+	width: 3em;
+	text-align:center;
+}
+
+.features h3{
+	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
+
+#booking {
+	padding-top: 5em;
+}
+
+.availability {
+padding: 40px;
+}
+
+.price{
+padding: 40px;	
+}
+
+.price h3{
+	padding-bottom: 0.5em;
+}
+
+.category p:first-of-type{
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.price p{
+	margin-bottom: 0em;
+}
+
+.category{
+	border-radius: 2em 1em;
+	padding: 10px;
+	color: white;
+	margin-bottom: 10px;
+	width: 90%;
+	box-sizing: border-box;
+}
+
+.high{
+	background-color: #003791;
+}
+
+.medium{
+	background-color: #372159;
+}
+
+.summer{
+	background-color: #6a256d;
+}
+
+.low{
+	background-color: #bc2f81;
+}
