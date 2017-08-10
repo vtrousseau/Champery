@@ -15,7 +15,7 @@ border-spacing: 20px 20px;
     display: table-row
 }
 
-.c1-3 {
+#activities .c1-3 {
     display: table-cell;
     background-color: #555759;
     padding: 10px;
