@@ -11,11 +11,11 @@ border-collapse: separate;
 border-spacing: 20px 20px;
 }
 
-.row {
+.table-row {
     display: table-row
 }
 
-.c1-3 {
+.cell {
     display: table-cell;
     background-color: #555759;
     padding: 10px;
