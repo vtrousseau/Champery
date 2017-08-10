@@ -1,17 +1,10 @@
-#activites {
+#activities {
 	background-color: #a4a8ad;
 	width: 100%;
 }
 
 .table {
-	/* Firefox */
-width: -moz-calc(100% - 638px);
-/* WebKit */
-width: -webkit-calc(100% - 638px);
-/* Opera */
-width: -o-calc(100% - 638px);
-/* Standard */
-width: calc(100% - 638px);
+width: 70%;
 float: left;
 display: table;
 border-collapse: separate;
@@ -22,7 +15,7 @@ border-spacing: 20px 20px;
     display: table-row
 }
 
-.c1-2 {
+.c1-3 {
     display: table-cell;
     background-color: #555759;
     padding: 10px;
@@ -39,6 +32,19 @@ border-spacing: 20px 20px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	margin-top: -20%;
+}
+
+.season {
+	position: relative;
+	left: 0px;
+	z-index: 10;
+	width: 40%;
+}
+
+.season img {
+	float: left;
+	width: 50%;
 }
 
 .description:hover .activite-img {
@@ -60,107 +66,134 @@ border-spacing: 20px 20px;
    color: white;
 }
 
+.description a{
+	display: block;
+	font-size: 1.2em;
+	color: inherit;
+}
+
+.description a:hover, .description .fa:hover{
+	color: orange;
+}
+
+.description .fa {
+	padding-right: 0.5em;
+}
+
 .description h2 {
 	padding-top: 0.5em;
+	font-size: 1.5em;
 }
+
+#activities > h2 {
+	margin-right: 350px;
+}
+
+#activities  h3 {
+padding-top: 0.5em;
+}	
 
 .map {
 	float: right;
-	position: relative;
-	color: transparent;
+	position: fixed;
+	top: 160px;
+	right: 40px;
+	color: red;
+	background-color: white important!;
+}
+
+#activities .map {
+background-color: white;
+}
+
+.map a {
+color: inherit;
+}
+
+.map img {
+width: 100%;
+}
+
+.white{
+	color: white;
+	font-size: 1.2em;
 }
 
 #chillon {
-	left: 233px;
-	top: 0px;
-	width: 98px;
-	height: 75px;
+	left: 23%;
+	top: 8%;
+	color: red;
 }
 
 #aquaparc {
-	left: 21px;
-	top: 118px;
-	width: 95px;
-	height: 64px;	
+	left: 5.5%;
+	top: 12%;
 }
 
 #swissvapeurparc {
-	left: 77px;
-	top: 178px;
-	width: 99px;
-	height: 78px;	
+	left: 3%;
+	top: 13.5%;
 }
 
-#chateau {
-	left: 325px;
-	top: 291px;
-	width: 98px;
-	height: 79px;	
+#aigle {
+	left: 36%;
+	top: 28%;
 }
 	
 #saline {
-	left: 399px;
-	top: 411px;
-	width: 106px;
-	height: 79px;	
+	left: 50%;
+	top: 48%;
 }
 
 #baths {
-	left: 100px;
-	top: 495px;
-	width: 117px;
-	height: 75px;	
+	left: 16%;
+	top: 60%;
 }
 
-#gorges {
-	left: 256px;
-	top: 559px;
-	width: 113px;
-	height: 77px;	
+#grotte {
+	left: 42%;
+	top: 58%;
+}
+
+#abbaye {
+	left: 43%;
+	top: 61%;
 }
 
 #labyrinthe {
-	left: 423px;
-	top: 582px;
-	width: 113px;
-	height: 85px;	
+	left: 50%;
+	top: 72%;	
 }
 
 #ski {
-	left: 69px;
-	top: 643px;
-	width: 123px;
-	height: 66px;	
+	left: 7%;
+	top: 72%;
 }
 
 #foundation {
-	left: 530px;
-	top: 758px;
-	width: 106px;
-	height: 76px;	
-}
-	
-#chillon, #aquaparc, #swissvapeurparc, #chateau, #saline, #baths, #gorges, #labyrinthe, #ski, #foundation {
-	position: absolute;
-	-webkit-transition: color 0.3s ease-in, background 0.5s ease-in;
-   -moz-transition: color 0.3s ease-in, background 0.5s ease-in;
-   -o-transition: color 0.3s ease-in, background 0.5s ease-in;
-   -ms-transition: color 0.3s ease-in, background 0.5s ease-in;
-   transition: color 0.3s ease-in, background 0.5s ease-in;
-   background: transparent;
-   	color: transparent;
-	padding-top: 20px;
-	font-size: 1.1em;
+	left: 65%;
+	top: 90%;	
 }
 
-#chillon:hover, #aquaparc:hover, #swissvapeurparc:hover, #saline:hover, #chateau:hover, #baths:hover, #gorges:hover, #labyrinthe:hover, #ski:hover, #foundation:hover {
-	color: black;
-	background: rgba(255, 255, 255, 0.5);
-	font-weight: bold;
+#chillon, #aquaparc, #swissvapeurparc, #aigle, #saline, #baths, #grotte, #labyrinthe, #ski, #foundation, #abbaye {
+	position: absolute;
+}
+
+#chillon a, #aquaparc a, #swissvapeurparc a, #aigle a, #saline a, #baths a, #grotte a, #labyrinthe a, #ski a, #foundation a, #abbaye a{
+	font-size: 2em;
+	text-align: center;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	color: inherit;
+}
+
+#chillon a:hover, #aquaparc a:hover, #swissvapeurparc a:hover, #saline a:hover, #aigle a:hover, #baths a:hover, #grotte a:hover, #labyrinthe a:hover, #ski a:hover, #foundation a:hover, #ski a:hover, #abbaye a:hover {
+font-size: 2.5em;
+  color: white;
 }
 
 @media all and (max-width: 840px) { 
-    /* demo 3 */
     .main .container {
         padding: 0 30px
     }

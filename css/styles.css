@@ -49,7 +49,11 @@ section {
   color: inherit;
   text-decoration: inherit;
 }
-	 
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
 .c1-3 {
     width: 33%;
 	float: left;
@@ -177,6 +181,10 @@ a:visited {
   font-family: 'Chela One', cursive;
   padding-left: 50px;
   color: #fff;
+}
+
+.content h2 {
+	padding: 2em 0;
 }
 
 .nav-color {
