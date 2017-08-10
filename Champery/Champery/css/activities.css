@@ -1,0 +1,211 @@
+#activities {
+	background-color: #a4a8ad;
+	width: 100%;
+}
+
+.table {
+width: 70%;
+float: left;
+display: table;
+border-collapse: separate;
+border-spacing: 20px 20px;
+}
+
+.row {
+    display: table-row
+}
+
+.c1-3 {
+    display: table-cell;
+    background-color: #555759;
+    padding: 10px;
+	float: none;
+}
+
+.img-wrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+
+.activite-img {
+	width:100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	margin-top: -20%;
+}
+
+.season {
+	position: relative;
+	left: 0px;
+	z-index: 10;
+	width: 40%;
+}
+
+.season img {
+	float: left;
+	width: 50%;
+}
+
+.description:hover .activite-img {
+	  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+	}
+	
+.description {
+	color: #b5b6b7;
+}
+
+.description:hover {
+	-webkit-transition: color 0.3s ease-in;
+   -moz-transition: color 0.3s ease-in;
+   -o-transition: color 0.3s ease-in;
+   -ms-transition: color 0.3s ease-in;
+   transition: color 0.3s ease-in;
+   color: white;
+}
+
+.description a{
+	display: block;
+	font-size: 1.2em;
+	color: inherit;
+}
+
+.description a:hover, .description .fa:hover{
+	color: orange;
+}
+
+.description .fa {
+	padding-right: 0.5em;
+}
+
+.description h2 {
+	padding-top: 0.5em;
+	font-size: 1.5em;
+}
+
+#activities > h2 {
+	margin-right: 350px;
+}
+
+#activities  h3 {
+padding-top: 0.5em;
+}	
+
+.map {
+	float: right;
+	position: fixed;
+	top: 160px;
+	right: 40px;
+	color: red;
+	background-color: white important!;
+}
+
+#activities .map {
+background-color: white;
+}
+
+.map a {
+color: inherit;
+}
+
+.map img {
+width: 100%;
+}
+
+.white{
+	color: white;
+	font-size: 1.2em;
+}
+
+#chillon {
+	left: 23%;
+	top: 8%;
+	color: red;
+}
+
+#aquaparc {
+	left: 5.5%;
+	top: 12%;
+}
+
+#swissvapeurparc {
+	left: 3%;
+	top: 13.5%;
+}
+
+#aigle {
+	left: 36%;
+	top: 28%;
+}
+	
+#saline {
+	left: 50%;
+	top: 48%;
+}
+
+#baths {
+	left: 16%;
+	top: 60%;
+}
+
+#grotte {
+	left: 42%;
+	top: 58%;
+}
+
+#abbaye {
+	left: 43%;
+	top: 61%;
+}
+
+#labyrinthe {
+	left: 50%;
+	top: 72%;	
+}
+
+#ski {
+	left: 7%;
+	top: 72%;
+}
+
+#foundation {
+	left: 65%;
+	top: 90%;	
+}
+
+#chillon, #aquaparc, #swissvapeurparc, #aigle, #saline, #baths, #grotte, #labyrinthe, #ski, #foundation, #abbaye {
+	position: absolute;
+}
+
+#chillon a, #aquaparc a, #swissvapeurparc a, #aigle a, #saline a, #baths a, #grotte a, #labyrinthe a, #ski a, #foundation a, #abbaye a{
+	font-size: 2em;
+	text-align: center;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	color: inherit;
+}
+
+#chillon a:hover, #aquaparc a:hover, #swissvapeurparc a:hover, #saline a:hover, #aigle a:hover, #baths a:hover, #grotte a:hover, #labyrinthe a:hover, #ski a:hover, #foundation a:hover, #ski a:hover, #abbaye a:hover {
+font-size: 2.5em;
+  color: white;
+}
+
+@media all and (max-width: 840px) { 
+    .main .container {
+        padding: 0 30px
+    }
+    .table {
+        display: block
+    }
+    .row {
+        display: block
+    }
+    .c1-3 {
+        display: block;
+        margin-bottom: 30px
+    }
+
+}
