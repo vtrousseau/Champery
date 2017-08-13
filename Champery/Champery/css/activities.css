@@ -11,7 +11,7 @@ border-collapse: separate;
 border-spacing: 20px 20px;
 }
 
-#activities .row {
+.table-row {
     display: table-row
 }
 
@@ -86,7 +86,7 @@ border-spacing: 20px 20px;
 }
 
 #activities > h2 {
-	margin-right: 350px;
+	margin-right: 370px;
 }
 
 #activities  h3 {
@@ -99,8 +99,9 @@ padding-top: 0.5em;
 	top: 160px;
 	right: 40px;
 	color: red;
-	background-color: white important!;
+	background-color: white !important;
 }
+
 
 #activities .map {
 background-color: white;
@@ -122,7 +123,6 @@ width: 100%;
 #chillon {
 	left: 23%;
 	top: 8%;
-	color: red;
 }
 
 #aquaparc {
@@ -193,7 +193,7 @@ font-size: 2.5em;
   color: white;
 }
 
-@media all and (max-width: 840px) { 
+@media all and (max-width: 576px) { 
     .main .container {
         padding: 0 30px
     }
@@ -205,7 +205,40 @@ font-size: 2.5em;
     }
     .c1-3 {
         display: block;
-        margin-bottom: 30px
+        margin-bottom: 30px;
+		width: 100%;
+		max-width: 300px;
+		margin-right: auto;
+		margin-left: auto;
     }
 
+}
+
+@media all and (max-width: 992px) { 
+.table {
+width: 100%;
+}
+#activities > h2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	padding-bottom: 1em;
+		}
+.row {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+}
+
+@media all and (max-width: 768px) {
+.table {
+		border-spacing: 10px 10px;
+}	
+}
+	
+@media all and (max-width: 576px) {
+.table {
+border-spacing: 10px 10px;
+}
 }

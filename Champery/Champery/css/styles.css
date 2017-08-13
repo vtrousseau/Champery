@@ -54,6 +54,11 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
 }
 
+hr {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
 .c1-3 {
     width: 33%;
 	float: left;
@@ -380,30 +385,41 @@ a:hover {
 
 	/* Extra Large Devices */
     @media only screen and (max-width : 1440px) {
+.c1-3-lg {
+    width: 33%;
+	float: left;
 }
+	}
 	
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-
+body {
+	font-size: 14px;
+}
 	}
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-#titlepage {
-	height: 500px;
-    }
+.visible_lg{
+	display: none;
+}
+body {
+	font-size: 13px;
+}
 	}
 
 	
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-
+body {
+	font-size: 12px;
+}
 	}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
 
-}
+	}
 
 
 
