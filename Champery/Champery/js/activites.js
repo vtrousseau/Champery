@@ -71,7 +71,7 @@ $("#chillon").toggleClass('white');
 
 var win = $(window);
 
-var footer = $("#footer");
+var footer = $("#address");
 
 footer.each(function(i, el) {
   var el = $(el);
