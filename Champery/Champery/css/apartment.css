@@ -206,24 +206,28 @@ padding: 40px;
 .category{
 	border-radius: 2em 1em;
 	padding: 10px;
-	color: white;
+	color: black;
 	margin-bottom: 10px;
 	width: 90%;
 	box-sizing: border-box;
 }
 
 .high{
-	background-color: #E81B00;
-}
-
+	background-color: rgba(230, 27, 0, 0.7);
+	height: 180px;
+}	
+	
 .medium{
-	background-color: orange;
-}
+	background-color: rgba(255, 166, 0, 0.7);
+	height: 180px;
+	}
 
 .summer{
-	background-color: #edcc28;
+	background-color: rgba(203, 172, 16, 0.7);
+	height: 220px;
 }
 
 .low{
-	background-color: #a4a8ad;
+	background-color: rgba(164, 168, 173, 0.7);
+	height: 220px;
 }
