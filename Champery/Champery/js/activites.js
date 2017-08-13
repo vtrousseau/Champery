@@ -73,7 +73,7 @@ var win = $(window);
 
 var footer = $("#trigger");
 
-/*
+
 footer.each(function(i, el) {
   var el = $(el);
   if (el.visible(true)) {
@@ -81,8 +81,8 @@ footer.each(function(i, el) {
 	else {
 	$(".map").fadeIn();
 	} 
-});*/
-
+});
+/*
 win.scroll(function(event) {
   
  footer.each(function(i, el) {
@@ -93,5 +93,5 @@ win.scroll(function(event) {
 	$(".map").fadeIn();
 	} 
     }) 
-  });
+  });*/
  
