@@ -85,7 +85,6 @@ hr {
 
 .main-navigation {
   margin: 0 auto;
-  top: 35px;
   left: -1px;
   position: fixed;
   width: 101%;
@@ -310,7 +309,7 @@ a:hover {
 }
 
 #atouts a, #atouts a:visited, #atouts a:hover  {
-    color: black;
+    color: #000000;
 }
 
 .atout {
