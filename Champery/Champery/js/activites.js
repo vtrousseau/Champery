@@ -39,7 +39,7 @@ $("#chillon").toggleClass('white');
 });
 
 var scrollEventHandler = function() {
-	if(isScrolledIntoView(document.getElementsById('footer')[0])) {
+	if(isScrolledIntoView(document.getElementById('footer')[0])) {
   	$('.map').fadeOut();
   } else {
   	$('.map').fadeIn();
