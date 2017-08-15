@@ -398,17 +398,29 @@ a:hover {
 
 
 	/* Extra Large Devices */
-    @media only screen and (max-width : 1440px) {
+    @media only screen and (min-width:1201px) and (max-width : 1440px) {
 .c1-3-lg {
     width: 33%;
+	float: left;
+}
+.c1-2-lg {
+    width: 50%;
 	float: left;
 }
 	}
 	
     /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+    @media only screen and (min-width: 993px) and (max-width : 1200px) {
 body {
 	font-size: 14px;
+}
+.c1-3-md {
+    width: 33%;
+	float: left;
+}
+.c1-2-md {
+    width: 50%;
+	float: left;
 }
 	}
 
@@ -422,17 +434,57 @@ body {
 }
 	}
 
+	@media only screen and (min-width: 769px) and (max-width : 992px) {
+.c1-2-sm {
+    width: 50%;
+	float: left;
+}
+.c1-3-sm {
+    width: 33%;
+	float: left;
+}
+	}
 	
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
 body {
 	font-size: 12px;
 }
+.activites, .atout {
+max-width: 300px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#atouts .activite {
+	margin: 0px;
+}
 	}
 
+	@media only screen and (min-width: 530px) and (max-width : 768px) {
+.c1-2-xs {
+    width: 50%;
+	float: left;
+}
+	}
+	
+	@media only screen and (max-width : 576px) {
+.titletext p {
+    font-size: 1.4em;
+}
+.titletext h3 {
+    font-size: 1.8em;
+}
+}
+	
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-
+.titletext p {
+    font-size: 1.2em;
+}
+.titletext h3 {
+    font-size: 1.5em;
+}
 	}
 
 

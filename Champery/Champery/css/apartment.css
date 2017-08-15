@@ -52,33 +52,6 @@ padding: 1em 0;
   display: block;
 }
 
-.slide:nth-of-type(1) {
-  background: url('../images/appartement-1-lg.jpg');
-}
-
-.slide:nth-of-type(2) {
-  background: url('../images/appartement-2-lg.jpg');
-}
-
-.slide:nth-of-type(3) {
-  background: url('../images/appartement-3-lg.jpg');
-}
-
-.slide:nth-of-type(4) {
-  background: url('../images/appartement-4-lg.jpg');
-}
-
-.slide:nth-of-type(5) {
-  background: url('../images/appartement-5-lg.jpg');
-}
-
-.slide:nth-of-type(6) {
-  background: url('../images/appartement-6-lg.jpg');
-}
-
-.slide:nth-of-type(7) {
-  background: url('../images/appartement-7-lg.jpg');
-}
 
 .slide_buttons {
   left: 0;
@@ -150,7 +123,7 @@ a.slide_btn {
 	max-width: 1300px;
 }
 
-.features .c1-3{
+.features .c1-3-lg{
 	text-align: left;	
 }
 
@@ -230,4 +203,131 @@ padding: 40px;
 .low{
 	background-color: rgba(164, 168, 173, 0.7);
 	height: 220px;
+}
+@media all and (min-width: 769px) {
+	
+.slide:nth-of-type(1) {
+  background: url('../images/appartement-1-lg.jpg');
+}
+
+.slide:nth-of-type(2) {
+  background: url('../images/appartement-2-lg.jpg');
+}
+
+.slide:nth-of-type(3) {
+  background: url('../images/appartement-3-lg.jpg');
+}
+
+.slide:nth-of-type(4) {
+  background: url('../images/appartement-4-lg.jpg');
+}
+
+.slide:nth-of-type(5) {
+  background: url('../images/appartement-5-lg.jpg');
+}
+
+.slide:nth-of-type(6) {
+  background: url('../images/appartement-6-lg.jpg');
+}
+
+.slide:nth-of-type(7) {
+  background: url('../images/appartement-7-lg.jpg');
+}
+}
+
+
+@media all and (max-width: 1200px) {
+.category{
+    width: 70%;
+	margin: 0px auto 1em;
+}
+}
+
+@media all and (max-width: 992px) {
+	.features {
+	margin: auto;
+	max-width: 440px;
+	}
+	.category{
+    width: 80%;
+	margin: 0px auto 1em;
+}
+}
+
+@media all and (max-width: 768px) {
+.intro-apartment {
+width: 85%;
+}
+
+.slide:nth-of-type(1) {
+  background: url('../images/appartement-1-md.jpg');
+}
+
+.slide:nth-of-type(2) {
+  background: url('../images/appartement-2-md.jpg');
+}
+
+.slide:nth-of-type(3) {
+  background: url('../images/appartement-3-md.jpg');
+}
+
+.slide:nth-of-type(4) {
+  background: url('../images/appartement-4-md.jpg');
+}
+
+.slide:nth-of-type(5) {
+  background: url('../images/appartement-5-md.jpg');
+}
+
+.slide:nth-of-type(6) {
+  background: url('../images/appartement-6-md.jpg');
+}
+
+.slide:nth-of-type(7) {
+  background: url('../images/appartement-7-md.jpg');
+}
+	
+}
+	
+@media all and (max-width: 576px) {
+.intro-apartment {
+width: 100%;
+}
+
+.slide_viewer {
+    height: 25em;
+}
+.slide:nth-of-type(1) {
+  background: url('../images/appartement-1-sm.jpg');
+}
+
+.slide:nth-of-type(2) {
+  background: url('../images/appartement-2-sm.jpg');
+}
+
+.slide:nth-of-type(3) {
+  background: url('../images/appartement-3-sm.jpg');
+}
+
+.slide:nth-of-type(4) {
+  background: url('../images/appartement-4-sm.jpg');
+}
+
+.slide:nth-of-type(5) {
+  background: url('../images/appartement-5-sm.jpg');
+}
+
+.slide:nth-of-type(6) {
+  background: url('../images/appartement-6-sm.jpg');
+}
+
+.slide:nth-of-type(7) {
+  background: url('../images/appartement-7-sm.jpg');
+}
+}
+
+	@media only screen and (max-width: 529px){
+	.high, .medium, .summer, .low{
+	height: auto;
+}	
 }
