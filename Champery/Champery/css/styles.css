@@ -500,6 +500,10 @@ font-size: 2em;
 .logo h2 {
 font-size: 1.4em;
 }
+#footer {
+	padding-top: 0px;
+	text-align: center;
+}
 	}
 
 	@media only screen and (min-width: 530px) and (max-width : 768px) {
@@ -551,6 +555,10 @@ padding-left: 15px;
 }
 #titlepage {
   background: url('../images/main-xs.jpg') no-repeat center top; 
+}
+#footer {
+	padding-top: 0px;
+	text-align: center;
 }
 	}
 
