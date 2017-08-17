@@ -42,7 +42,7 @@ $("#chillon").toggleClass('white');
 var scrollEventHandler = function() {
 	if($(window).width() >= 992){
   // do your stuff
-	if(isScrolledIntoView(document.getElementsByClassName('testing123')[0])) {
+	if(isScrolledIntoView(document.getElementsByClassName('map-fade')[0])) {
   	$('.map').fadeOut();
   } else {
   	$('.map').fadeIn();

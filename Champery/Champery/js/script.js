@@ -22,7 +22,7 @@ $(document).ready(function() {
   $(".menu-button").click(function(event) {
     event.preventDefault();
     var href = $(this).attr('href');
-    scrollAmount = (href == "#section-home") ? 0 : $(href).offset().top - 120;
+    scrollAmount = (href == "#titlepage") ? 0 : $(href).offset().top - 120;
     $('html, body').animate({
       scrollTop: scrollAmount
     }, 1000);
@@ -36,7 +36,7 @@ $(document).ready(function() {
       var refElement = $(currLink).attr("href");
       if ($(refElement).position().top - 190 <= scrollPos && $(refElement).position().top - 190 + $(refElement).height() >= scrollPos) {
         currLink.parent().addClass("active");
-        progressWidth = $(".progress-bar").css("width");
+        /*progressWidth = $(".progress-bar").css("width");
         console.log(progressWidth);
           if (refElement == "#section-skills" && progressWidth == "0px")
             {
@@ -52,7 +52,7 @@ $(document).ready(function() {
               $(".progress-python").animate({
                 width: ["20%", "linear"]
               }, 100);
-            }
+            }*/
            
         
       } else {

@@ -174,7 +174,7 @@ a:visited {
 }
 
 .logo h1 {
-  font-family: 'Marko One', serif;
+font-family: 'Neucha', cursive;
   font-weight: bold;
   padding-top: 10px;
   padding-left: 50px;
@@ -183,7 +183,7 @@ a:visited {
 }
 
 .logo h2 {
-  font-family: 'Chela One', cursive;
+font-family: 'Neucha', cursive;
   padding-left: 50px;
   color: #fff;
 }
@@ -270,7 +270,6 @@ a:hover {
 }
 
 #titlepage {
-  background: url('../images/main-lg.jpg') no-repeat center top; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -398,7 +397,7 @@ a:hover {
 
 
 	/* Extra Large Devices */
-    @media only screen and (min-width:1201px) and (max-width : 1440px) {
+    @media only screen and (min-width:1201px) {
 .c1-3-lg {
     width: 33%;
 	float: left;
@@ -406,6 +405,9 @@ a:hover {
 .c1-2-lg {
     width: 50%;
 	float: left;
+}
+#titlepage {
+  background: url('../images/main-lg.jpg') no-repeat center top; 
 }
 	}
 	
@@ -421,6 +423,19 @@ body {
 .c1-2-md {
     width: 50%;
 	float: left;
+}
+.logo h1 {
+font-size: 2.3em;
+}
+
+.logo h2 {
+font-size: 1.7em;
+}
+.main-menu{
+padding-left: 0px;
+}
+#titlepage {
+  background: url('../images/main-lg.jpg') no-repeat center top; 
 }
 	}
 
@@ -443,6 +458,25 @@ body {
     width: 33%;
 	float: left;
 }
+.logo h1 {
+font-size: 2.1em;
+margin-top: 2px;
+}
+
+.logo h2 {
+font-size: 1.5em;
+}
+.main-menu{
+padding-left: 0px;
+margin-left: -50px;
+padding-right: 20px;
+}
+.main-menu li{
+	margin-left: 10px;
+}
+#titlepage {
+  background: url('../images/main-md.jpg') no-repeat center top; 
+}
 	}
 	
     /* Small Devices, Tablets */
@@ -459,12 +493,31 @@ margin-left: auto;
 #atouts .activite {
 	margin: 0px;
 }
+.logo h1 {
+font-size: 2em;
+}
+
+.logo h2 {
+font-size: 1.4em;
+}
 	}
 
 	@media only screen and (min-width: 530px) and (max-width : 768px) {
 .c1-2-xs {
     width: 50%;
 	float: left;
+}
+
+.main-menu{
+padding-left: 0px;
+margin-left: -50px;
+padding-right: 20px;
+}
+.main-menu li{
+	margin-left: 10px;
+}
+#titlepage {
+  background: url('../images/main-sm.jpg') no-repeat center top; 
 }
 	}
 	
@@ -475,15 +528,29 @@ margin-left: auto;
 .titletext h3 {
     font-size: 1.8em;
 }
+
 }
 	
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-.titletext p {
+
+	.logo h1 {
+font-size: 1.9em;
+padding-left: 15px;
+}
+
+.logo h2 {
+font-size: 1.3em;
+padding-left: 15px;
+}
+	.titletext p {
     font-size: 1.2em;
 }
 .titletext h3 {
     font-size: 1.5em;
+}
+#titlepage {
+  background: url('../images/main-xs.jpg') no-repeat center top; 
 }
 	}
 

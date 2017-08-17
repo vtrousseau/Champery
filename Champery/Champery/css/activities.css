@@ -1,4 +1,4 @@
-#activities {
+#activities, #village {
 	background-color: #a4a8ad;
 	width: 100%;
 }
@@ -9,6 +9,13 @@ float: left;
 display: table;
 border-collapse: separate;
 border-spacing: 20px 20px;
+}
+
+#village .table {
+	width: 100%;
+	float: none;
+	margin: auto;
+	max-width: 1000px;
 }
 
 .table-row {
@@ -35,6 +42,13 @@ border-spacing: 20px 20px;
 	margin-top: -20%;
 }
 
+.champery-img {
+	width:100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .season {
 	position: relative;
 	left: 0px;
@@ -47,7 +61,7 @@ border-spacing: 20px 20px;
 	width: 50%;
 }
 
-.description:hover .activite-img {
+.description:hover .activite-img, .description:hover .champery-img {
 	  -moz-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
@@ -89,7 +103,7 @@ border-spacing: 20px 20px;
 	margin-right: 370px;
 }
 
-#activities  h3 {
+#activities  h3, #village h3 {
 padding-top: 0.5em;
 }	
 
@@ -218,7 +232,7 @@ font-size: 2.5em;
 .table {
 width: 100%;
 }
-#activities > h2 {
+#activities > h2, #village > h2 {
 	margin-right: auto;
 	margin-left: auto;
 	width: 90%;
