@@ -393,8 +393,9 @@ a:hover {
 #address, #contact {
   padding-right: 5%;
   padding-left: 5%;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
-
 
 	/* Extra Large Devices */
     @media only screen and (min-width:1201px) {
@@ -408,6 +409,11 @@ a:hover {
 }
 #titlepage {
   background: url('../images/main-lg.jpg') no-repeat center top; 
+  height: 80vh;
+}
+#footer {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 	}
 	
@@ -475,7 +481,7 @@ padding-right: 20px;
 	margin-left: 10px;
 }
 #titlepage {
-  background: url('../images/main-md.jpg') no-repeat center top; 
+  background: url('../images/main-lg.jpg') no-repeat center top; 
 }
 	}
 	
@@ -504,6 +510,9 @@ font-size: 1.4em;
 	padding-top: 0px;
 	text-align: center;
 }
+#titlepage {
+  background: url('../images/main-lg.jpg') no-repeat center top; 
+}
 	}
 
 	@media only screen and (min-width: 530px) and (max-width : 768px) {
@@ -520,9 +529,7 @@ padding-right: 20px;
 .main-menu li{
 	margin-left: 10px;
 }
-#titlepage {
-  background: url('../images/main-sm.jpg') no-repeat center top; 
-}
+
 	}
 	
 	@media only screen and (max-width : 576px) {
@@ -554,7 +561,7 @@ padding-left: 15px;
     font-size: 1.5em;
 }
 #titlepage {
-  background: url('../images/main-xs.jpg') no-repeat center top; 
+  background: url('../images/main-lg.jpg') no-repeat center top; 
 }
 #footer {
 	padding-top: 0px;

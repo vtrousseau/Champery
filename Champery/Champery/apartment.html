@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,19 +11,48 @@
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/apartment.css">
+		<link rel="stylesheet" href="css/apartment.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chela+One|Josefin+Sans|Marko+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/ea603c10d8.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+  </head>
+
+
 
   </head>
 
   <body>
     <div class="wrapper">
-		<div id="header"></div>
+		<div id="header">
+		<div class="container-fluid full-image">
+    </div>
+    <div class="container-fluid nav-color">
+      <nav class="main-navigation ">
+        <div class="row">
+          <div class="col-xs-6 logo">
+            <h1>Vacances a la montagne</h1><h2>Appartement a Champery, Suisse</h2></div>
+          <div class="col-xs-6">
+            <div class="mobile-menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="menu">
+              <ul class="main-menu">
+                <li><a class="menu-button" href="./index.html"><h3><i class="fa fa-home" aria-hidden="true"></i></h3></a></li>
+                <li><a class="menu-button" href="./apartment.html">L'appartement</a></li>
+                <li><a class="menu-button" href="./activities.html">Les environs</a></li>
+                <li><a class="menu-button" href="./village.html">Le village</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="responsive-menu"></div>
+        </div>
+      </nav>
+      </div>
+		</div>
 		<div class="container-fluid content">
 		<section id="apartment">
 		<div class="intro-apartment">
@@ -112,7 +142,7 @@ Cet appartement agréablement agencé et entièrement rénové comprend :
 </div>
 <div class="c1-3-lg c1-2-md">
 <p><i class="fa fa-cutlery" aria-hidden="true"></i>Cuisine équipée</p>
-<p><i class="fa fa-envira" aria-hidden="true"></i>Machine à laver et séchoir communs (payante)</p> 
+<p><i class="fa fa-envira" aria-hidden="true"></i>Machine à laver et séchoir communs</p> 
 <p><i class="fa fa-child" aria-hidden="true"></i>Lit bébé et chaise haute sur demande</p>
 <p><i class="fa fa-arrows-v" aria-hidden="true"></i>Ascenseur</p>
 <p><i class="fa fa-book" aria-hidden="true"></i>Jeux et livres</p>
@@ -192,9 +222,7 @@ Cet appartement agréablement agencé et entièrement rénové comprend :
   <script src="js/script.js"></script>
   	<script src="./js/apartment.js"></script>
 	    <script> 
-      $(function(){
-        $("#header").load("header.html"); 
-      });
+
 	  $(function(){
         $("#footer").load("footer.html"); 
       });
