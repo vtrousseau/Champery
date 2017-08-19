@@ -20,12 +20,16 @@ $(document).ready(function() {
   });
 
   $(".menu-button").click(function(event) {
-    event.preventDefault();
+        var href = $(this).attr('href');
+	var nav = $('.content-nav');
+if (nav.length) {
+  var contentNav = nav.offset().top;
     var href = $(this).attr('href');
     scrollAmount = (href == "#titlepage") ? 0 : $(href).offset().top - 120;
     $('html, body').animate({
       scrollTop: scrollAmount
     }, 1000);
+}
   });
 
   function onScroll() {

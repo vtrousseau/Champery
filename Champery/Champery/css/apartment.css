@@ -15,7 +15,7 @@
 	padding: 20px;
 }
 
-.intro-apartment h2, h3{
+.intro-apartment h2, #features, #location h3 {
 padding: 1em 0;	
 }
 
