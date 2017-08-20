@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(window).resize(function() {
     if ($(document).width() > 714)
       $(".responsive-menu").css("height", "0px");
+		$(".responsive-menu").removeClass("menu-border");
   });
 
   var menu = $(".menu").html();
@@ -12,8 +13,9 @@ $(document).ready(function() {
   $(".menu ul li:first-child").addClass("active");
 
   $(".mobile-menu-icon").click(function() {
+	$(".responsive-menu").toggleClass("menu-border");
     var respMenu = $(".responsive-menu");
-    var height = (respMenu.css("height") == "170px") ? "0px" : "170px";
+    var height = (respMenu.css("height") == "190px") ? "0px" : "190px";
     respMenu.animate({
       height: height
     }, 100);
@@ -40,25 +42,7 @@ if (nav.length) {
       var refElement = $(currLink).attr("href");
       if ($(refElement).position().top - 190 <= scrollPos && $(refElement).position().top - 190 + $(refElement).height() >= scrollPos) {
         currLink.parent().addClass("active");
-        /*progressWidth = $(".progress-bar").css("width");
-        console.log(progressWidth);
-          if (refElement == "#section-skills" && progressWidth == "0px")
-            {
-              $(".progress-html").animate({
-                width: ["40%", "linear"]
-              }, 50);
-              $(".progress-css").animate({
-                width: ["30%", "linear"]
-              }, 100);
-              $(".progress-js").animate({
-                width: ["15%", "linear"]
-              }, 50);
-              $(".progress-python").animate({
-                width: ["20%", "linear"]
-              }, 100);
-            }*/
-           
-        
+
       } else {
         currLink.parent().removeClass("active");
       }
