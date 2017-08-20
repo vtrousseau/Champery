@@ -159,6 +159,10 @@ a.slide_btn {
 padding: 40px;
 }
 
+.availability p{
+padding-top: 1em;
+}
+
 .price{
 padding: 40px;	
 }
@@ -233,6 +237,9 @@ padding: 40px;
 .slide:nth-of-type(7) {
   background: url('../images/appartement-7-lg.jpg');
 }
+.slide:nth-of-type(8) {
+  background: url('../images/appartement-8-lg.png');
+}
 }
 
 
@@ -286,7 +293,9 @@ width: 85%;
 .slide:nth-of-type(7) {
   background: url('../images/appartement-7-md.jpg');
 }
-	
+.slide:nth-of-type(8) {
+  background: url('../images/appartement-8-md.png');
+}
 }
 	
 @media all and (max-width: 576px) {
@@ -327,6 +336,9 @@ margin-left: 40px;
 
 .slide:nth-of-type(7) {
   background: url('../images/appartement-7-sm.jpg');
+}
+.slide:nth-of-type(8) {
+  background: url('../images/appartement-8-sm.png');
 }
 }
 

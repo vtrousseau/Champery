@@ -83,6 +83,18 @@ hr {
    clear: both;
 }
 
+.center {
+text-align: center
+}
+
+.intro-apartment .center a{
+	color: black;
+}
+
+.intro-apartment .center a:hover{
+	color: white;
+}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -108,14 +120,15 @@ hr {
     color: #fff;
     margin: 0;
     position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
+    left: 12px;
+    top: 9px;
+    font-size: 30px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+	opacity: 0.9;
 }
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
