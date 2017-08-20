@@ -294,6 +294,10 @@ width: 85%;
 width: 100%;
 }
 
+.text-margin {
+margin-left: 40px;	
+	}
+
 .slide_viewer {
     height: 25em;
 }

@@ -83,6 +83,48 @@ hr {
    clear: both;
 }
 
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	z-index: 10;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
 .main-navigation {
   margin: 0 auto;
   padding-top: 15px;
@@ -92,9 +134,6 @@ hr {
   height: 135px;
   z-index: 100;
   background-color: #E81B00;
-  -webkit-box-shadow: 0px 17px 5px -13px rgba(158, 158, 158, 0.68);
-  -moz-box-shadow: 0px 17px 5px -13px rgba(158, 158, 158, 0.68);
-  box-shadow: 0px 17px 5px -13px rgba(158, 158, 158, 0.68);
 }
 
 .main-menu {
@@ -226,12 +265,18 @@ font-family: 'Neucha', cursive;
   text-transform: uppercase;
 }
 
+
 .mobile-menu {
   margin-top: 20px;
   list-style-type: none;
   text-align: center;
   color: white;
   font-size: 18px;
+  max-width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .mobile-menu a,
@@ -239,6 +284,10 @@ a:visited,
 a:active,
 a:hover {
   color: white;
+}
+
+.mobile-menu a:hover {
+  font-weight: bold;
 }
 
 .mobile-menu li {
@@ -308,7 +357,7 @@ a:hover {
 	margin-top: 5em;
 }
 
-#atouts a, #atouts a:visited, #atouts a:hover  {
+#atouts a, #atouts a:visited, #atouts a:hover, #activites a, #activites a:visited, #activites a:hover  {
     color: #000000;
 }
 
@@ -321,26 +370,7 @@ a:hover {
 .atout h1 {
     overflow: hidden;
 }
-.atout h1:before,
-.atout h1:after {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    content: "";
-    display: inline-block;
-    height: .1em;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
-    margin-bottom: .15em;
-}
-.atout h1:before {
-    right: 0.5em;
-    margin-left: -50%;
-}
-.atout h1:after {
-    left: 0.5em;
-    margin-right: -50%;
-}
+
 
 .activite{
   height: 100%;
@@ -540,6 +570,10 @@ padding-right: 20px;
     font-size: 1.8em;
 }
 
+.descriptions .table {
+    border-spacing: 0px 0px;
+}
+
 }
 	
     /* Extra Small Devices, Phones */ 
@@ -609,6 +643,14 @@ padding-left: 15px;
   .mobile-menu-icon {
     margin-top: 32px;
   }
+.mobile-menu li:nth-of-type(2), .mobile-menu li:nth-of-type(3) , .mobile-menu li:nth-of-type(4)  {
+border-top: 1px solid;
+border-color:rgba(255,255,255, 0.3);
+padding-top: 5px;
+}
+.menu-border{
+border: white 1px solid;
+}
 }
 
 @media only screen and (max-width: 520px) {
